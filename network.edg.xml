@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Horizontal connections between intersections -->
+    <edge id="n1_n2" from="n1" to="n2" numLanes="2" speed="13.9"/>
+    <edge id="n2_n1" from="n2" to="n1" numLanes="2" speed="13.9"/>
+    <edge id="n3_n4" from="n3" to="n4" numLanes="2" speed="13.9"/>
+    <edge id="n4_n3" from="n4" to="n3" numLanes="2" speed="13.9"/>
+
+    <!-- Vertical connections between intersections -->
+    <edge id="n1_n3" from="n1" to="n3" numLanes="2" speed="13.9"/>
+    <edge id="n3_n1" from="n3" to="n1" numLanes="2" speed="13.9"/>
+    <edge id="n2_n4" from="n2" to="n4" numLanes="2" speed="13.9"/>
+    <edge id="n4_n2" from="n4" to="n2" numLanes="2" speed="13.9"/>
+
+    <!-- Entry and exit roads -->
+    <edge id="top_left_n1"     from="top_left"     to="n1" numLanes="2" speed="13.9"/>
+    <edge id="n1_top_left"     from="n1" to="top_left"     numLanes="2" speed="13.9"/>
+    <edge id="top_right_n2"    from="top_right"    to="n2" numLanes="2" speed="13.9"/>
+    <edge id="n2_top_right"    from="n2" to="top_right"    numLanes="2" speed="13.9"/>
+    <edge id="bottom_left_n3"  from="bottom_left"  to="n3" numLanes="2" speed="13.9"/>
+    <edge id="n3_bottom_left"  from="n3" to="bottom_left"  numLanes="2" speed="13.9"/>
+    <edge id="bottom_right_n4" from="bottom_right" to="n4" numLanes="2" speed="13.9"/>
+    <edge id="n4_bottom_right" from="n4" to="bottom_right" numLanes="2" speed="13.9"/>
+    <edge id="left_n1"         from="left"         to="n1" numLanes="2" speed="13.9"/>
+    <edge id="n1_left"         from="n1" to="left"         numLanes="2" speed="13.9"/>
+    <edge id="right_n2"        from="right"        to="n2" numLanes="2" speed="13.9"/>
+    <edge id="n2_right"        from="n2" to="right"        numLanes="2" speed="13.9"/>
+    <edge id="top_n1"          from="top"          to="n1" numLanes="2" speed="13.9"/>
+    <edge id="n1_top"          from="n1" to="top"          numLanes="2" speed="13.9"/>
+    <edge id="bottom_n3"       from="bottom"       to="n3" numLanes="2" speed="13.9"/>
+    <edge id="n3_bottom"       from="n3" to="bottom"       numLanes="2" speed="13.9"/>
+</edges>
